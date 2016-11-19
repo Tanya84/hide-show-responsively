@@ -29,7 +29,7 @@ img {
 @media only screen and (min-width: 25em) {
 
   img {
-    display: inline block;
+    display: inline;
     width: 50%;
   }
 
@@ -47,4 +47,17 @@ img {
   img:first-child {
     display: none;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    display: inline-block;
+    width: 24%
+  }
+
+  img:first-child {
+    display: inline-block;
+  }
+
 }
